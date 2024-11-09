@@ -56,7 +56,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-/* Tambahkan styling tambahan jika diperlukan */
-</style>
