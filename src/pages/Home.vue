@@ -203,9 +203,9 @@ export default {
   setup() {
     const showConfirmDialog = ref(false);
     const loading = ref(false);
-    const hasTakenQueue = ref(false); // Menandakan apakah user sudah mengambil nomor antrian
-    const queueNumber = ref(''); // Menyimpan nomor antrian yang didapat
-    const waitingPatients = ref(3); // Jumlah pasien yang sedang menunggu
+    const hasTakenQueue = ref(false);
+    const queueNumber = ref('');
+    const waitingPatients = ref(3);
 
     const confirmQueue = () => {
       showConfirmDialog.value = true;
@@ -215,11 +215,10 @@ export default {
       showConfirmDialog.value = false;
       loading.value = true;
 
-      // Simulasi loading selama 3 detik sebelum nomor antrian diambil
       setTimeout(() => {
         loading.value = false;
         hasTakenQueue.value = true;
-        queueNumber.value = Math.floor(Math.random() * 100) + 1; // Mendapatkan nomor antrian acak
+        queueNumber.value = Math.floor(Math.random() * 100) + 1;
       }, 3000);
     };
 
@@ -235,7 +234,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-/* Tambahkan styling tambahan jika perlu */
-</style>

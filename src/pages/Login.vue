@@ -96,7 +96,6 @@ export default {
     const router = useRouter();
 
     const handleLogin = () => {
-      // Simulasi login berhasil tanpa validasi
       router.push('/home');
     };
 
