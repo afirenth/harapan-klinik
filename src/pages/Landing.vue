@@ -10,7 +10,7 @@
           <AuthCard />
         </div>
         <div class="px-4">
-          <Information />
+          <InformationCard />
         </div>
       </div>
     </div>
@@ -30,14 +30,14 @@
 <script>
 import HeroSection from '../components/HeroSection.vue';
 import AuthCard from '../components/AuthCard.vue';
-import Information from '../components/Information.vue';
+import InformationCard from '../components/InformationCard.vue';
 
 export default {
   name: 'Landing',
   components: {
     HeroSection,
     AuthCard,
-    Information
+    InformationCard
   }
 };
 </script>

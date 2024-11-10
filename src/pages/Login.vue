@@ -14,7 +14,7 @@
         <p class="mt-8 text-primary sm:text-center">Belum punya akun? <span class="font-bold">Daftar Sekarang!</span>
         </p>
         <RegisterCard />
-        <Information class="mt-8" />
+        <InformationCard class="mt-8" />
       </div>
     </div>
 
@@ -22,7 +22,7 @@
     <div class="hidden md:flex w-full h-full lg:h-fit lg:w-10/12 bg-primary lg:rounded-lg items-center">
       <div class="flex-1 p-8">
         <img src="../assets/logo-big.svg" alt="" class="mb-12 mx-auto" />
-        <Information />
+        <InformationCard />
       </div>
       <div class="flex-1 p-8">
         <div class="relative z-20">
@@ -43,14 +43,14 @@
 <script>
 import LoginForm from '../components/LoginForm.vue';
 import RegisterCard from '../components/RegisterCard.vue';
-import Information from '../components/Information.vue';
+import InformationCard from '../components/InformationCard.vue';
 
 export default {
   name: 'Login',
   components: {
     LoginForm,
     RegisterCard,
-    Information
+    InformationCard
   }
 };
 </script>

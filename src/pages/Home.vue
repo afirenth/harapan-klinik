@@ -50,7 +50,7 @@
               <hr class="text-primary mt-2 w-2/4 h-px border-0 bg-gray-light">
               <hr class="text-primary mt-2 w-3/4 h-px border-0 bg-gray-light">
               <hr class="text-primary mt-2 w-full h-px border-0 bg-gray-light">
-              <Information class="mt-4" />
+              <InformationCard class="mt-4" />
             </div>
           </div>
         </div>
@@ -84,7 +84,7 @@
               </div>
               <p class="text-gray mt-4">Nomor Antrian yang telah didapatkan akan <span class="font-bold"> di hapus
                   setelah 1 x 24 jam </span></p>
-              <Information class="mt-4" />
+              <InformationCard class="mt-4" />
             </div>
           </div>
         </div>
@@ -141,7 +141,7 @@
               <hr class="text-primary mt-2 w-6/12 h-px border-0 bg-gray-light">
               <hr class="text-primary mt-2 w-8/12 h-px border-0 bg-gray-light">
               <hr class="text-primary mt-2 w-10/12 h-px border-0 bg-gray-light">
-              <Information class="mt-4 !bg-primary !text-white !w-11/12 py-6 mt-6" />
+              <InformationCard class="mt-4 !bg-primary !text-white !w-11/12 py-6 mt-6" />
             </div>
           </div>
         </div>
@@ -177,7 +177,7 @@
               <p class="text-gray mt-6 text-center">Nomor Antrian yang telah didapatkan akan <span class="font-bold"> di
                   hapus
                   setelah 1 x 24 jam </span></p>
-              <Information class="mt-4 !bg-primary !text-white w-8/12 py-6 mt-6" />
+              <InformationCard class="mt-4 !bg-primary !text-white w-8/12 py-6 mt-6" />
             </div>
           </div>
         </div>
@@ -188,7 +188,7 @@
 
 <script>
 import { ref } from 'vue';
-import Information from '../components/Information.vue';
+import InformationCard from '../components/InformationCard.vue';
 import Spinner from '../components/Spinner.vue';
 import RegisterCard from '../components/RegisterCard.vue';
 import NavbarTop from '../components/NavbarTop.vue';
@@ -196,7 +196,7 @@ import NavbarTop from '../components/NavbarTop.vue';
 export default {
   name: 'Home',
   components: {
-    Information,
+    InformationCard,
     Spinner,
     RegisterCard
   },

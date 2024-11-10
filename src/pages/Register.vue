@@ -67,12 +67,12 @@
 
         <p class="mt-8 text-primary sm:text-center">Sudah punya akun? <span class="font-bold">Login Sekarang!</span></p>
         <LoginCard />
-        <Information class="mt-8" />
+        <InformationCard class="mt-8" />
       </div>
     </div>
     <div class="hidden md:flex my-16 h-full lg:h-fit w-full lg:w-10/12 bg-primary lg:rounded-lg items-center">
       <div class="flex-1 p-8"><img src="../assets/logo-big.svg" alt="" class="mb-12 mx-auto">
-        <Information />
+        <InformationCard />
 
         <p class="mt-8 text-white text-center">Sudah punya akun? <span class="font-bold">Login Sekarang!</span></p>
         <LoginCard class="bg-secondary" />
@@ -151,7 +151,7 @@
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 import LoginCard from '../components/LoginCard.vue';
-import Information from '../components/Information.vue';
+import InformationCard from '../components/InformationCard.vue';
 
 import eyeOpenIcon from '../assets/eye-open.svg';
 import eyeClosedIcon from '../assets/eye-closed.svg';
@@ -160,7 +160,7 @@ export default {
   name: 'Register',
   components: {
     LoginCard,
-    Information
+    InformationCard
   },
   setup() {
     const fullName = ref('');
