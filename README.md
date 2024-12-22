@@ -76,13 +76,13 @@ The output will be located in the `dist` directory.
 ### Welcome Page
 
 - **Mobile View**
-  ![Welcome Mobile](assets/demo/welcome-mobile.png)
+  ![Welcome Mobile](src/assets/demo/welcome-mobile.png)
 
 - **Tablet View**
-  ![Welcome Tablet](assets/demo/welcome-tablet.png)
+  ![Welcome Tablet](src/assets/demo/welcome-tablet.png)
 
 - **Desktop View**
-  ![Welcome Desktop](assets/demo/welcome-desktop.png)
+  ![Welcome Desktop](src/assets/demo/welcome-desktop.png)
 
 ### Home Page
 
