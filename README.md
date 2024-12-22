@@ -75,25 +75,26 @@ The output will be located in the `dist` directory.
 
 ### Welcome Page
 
-- **Mobile View**
-  ![Welcome Mobile](src/assets/demo/welcome-mobile.png)
+- **Mobile View**  
+  <img src="src/assets/demo/welcome-mobile.png" alt="Welcome Mobile" width="300">
 
-- **Tablet View**
-  ![Welcome Tablet](src/assets/demo/welcome-tablet.png)
+- **Tablet View**  
+  <img src="src/assets/demo/welcome-tablet.png" alt="Welcome Tablet" width="500">
 
-- **Desktop View**
-  ![Welcome Desktop](src/assets/demo/welcome-desktop.png)
+- **Desktop View**  
+  <img src="src/assets/demo/welcome-desktop.png" alt="Welcome Desktop" width="800">
 
 ### Home Page
 
-- **Mobile View**
-  ![Home Mobile](src/assets/demo/home-mobile.png)
+- **Mobile View**  
+  <img src="src/assets/demo/home-mobile.png" alt="Home Mobile" width="300">
 
-- **Tablet View**
-  ![Home Tablet](src/assets/demo/home-tablet.png)
+- **Tablet View**  
+  <img src="src/assets/demo/home-tablet.png" alt="Home Tablet" width="500">
 
-- **Desktop View**
-  ![Home Desktop](src/assets/demo/home-desktop.png)
+- **Desktop View**  
+  <img src="src/assets/demo/home-desktop.png" alt="Home Desktop" width="800">
+
 
 ## Demo
 
