@@ -87,13 +87,13 @@ The output will be located in the `dist` directory.
 ### Home Page
 
 - **Mobile View**
-  ![Home Mobile](assets/demo/home-mobile.png)
+  ![Home Mobile](src/assets/demo/home-mobile.png)
 
 - **Tablet View**
-  ![Home Tablet](assets/demo/home-tablet.png)
+  ![Home Tablet](src/assets/demo/home-tablet.png)
 
 - **Desktop View**
-  ![Home Desktop](assets/demo/home-desktop.png)
+  ![Home Desktop](src/assets/demo/home-desktop.png)
 
 ## Demo
 
